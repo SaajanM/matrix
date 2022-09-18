@@ -11,7 +11,7 @@ var letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNO
 letters = letters.split('');
 
 // Setting up the columns
-var fontSize = 10,
+var fontSize = 18,
     columns = canvas.width / fontSize;
 
 // Setting up the drops
