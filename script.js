@@ -24,6 +24,7 @@ for (var i = 0; i < columns; i++) {
 function draw() {
   ctx.fillStyle = 'rgba(255, 255, 255, .1)';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.font = "18px Courier New";
   for (var i = 0; i < drops.length; i++) {
     var text = letters[Math.floor(Math.random() * letters.length)];
     ctx.fillStyle = '#000';
